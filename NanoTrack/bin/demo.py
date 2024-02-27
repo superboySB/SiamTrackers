@@ -23,9 +23,9 @@ torch.set_num_threads(1)
 
 parser = argparse.ArgumentParser(description='tracking demo') 
 
-parser.add_argument('--config', default='./models/config/configv2.yaml',type=str, help='config file')
+parser.add_argument('--config', default='./models/config/configv3.yaml',type=str, help='config file')
 
-parser.add_argument('--snapshot', default='models/pretrained/nanotrackv2.pth', type=str, help='model name')
+parser.add_argument('--snapshot', default='models/pretrained/nanotrackv3.pth', type=str, help='model name')
 
 parser.add_argument('--video_name', default='./bin/girl_dance.mp4', type=str, help='videos or image files')
 
